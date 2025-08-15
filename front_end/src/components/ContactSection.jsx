@@ -15,7 +15,7 @@ function ContactSection(){
     const handleSubmit = async (e) => {
       e.preventDefault();
 
-      const res = await fetch("https://theopan-portofolio-ptc1.vercel.app/contact", {
+      const res = await fetch("https://theopan-portofolio-ptc1.vercel.app/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
