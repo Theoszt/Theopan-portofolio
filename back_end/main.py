@@ -7,7 +7,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["https://Theoszt.github.io",
-                  "https://theopan-portofolio27.vercel.app/"],  
+                  "https://theopan-portofolio27.vercel.app"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
