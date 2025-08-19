@@ -6,11 +6,12 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://theopan-portofolio27.vercel.app"],  
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 @app.get("/")
 def read_root():
     return {"message": "Backend is running"}
