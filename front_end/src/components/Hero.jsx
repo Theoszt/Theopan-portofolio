@@ -60,11 +60,11 @@ function Hero() {
                 <span className="typing-animation">{displayText}</span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed max-w-lg">
-                A 5th-semester Data Science student at Universitas Negeri Surabaya, 19 years old, with a strong interest in data analysis, programming, and applying statistical science to solve real-world problems. Meticulous, logical, and enthusiastic about developing data-driven solutions through modern technology and analytical methods.
+                A 5th-semester Data Science student at Universitas Negeri Surabaya, 20 years old, with a strong interest in data analysis, programming, and applying statistical science to solve real-world problems. Meticulous, logical, and enthusiastic about developing data-driven solutions through modern technology and analytical methods.
               </p>
                <div className="flex flex-wrap gap-4">
                   <a
-                    href="https://drive.google.com/file/d/1Hp-zIcBHVwHFE-p9lUbACZe6HZ8vt8Lr/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1t2QwcUHKDDcK9aJqmMeFkCYlfgBw1Nv_/view?usp=sharing"
                     download
                     className="bg-primary text-white px-8 py-3 rounded-button hover:bg-white-700 transition-colors whitespace-nowrap"
                   >
