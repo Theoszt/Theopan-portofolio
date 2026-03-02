@@ -6,6 +6,7 @@ import sentimen from "../assets/project_img/sentimen.svg";
 import suhu from "../assets/project_img/suhu.svg";
 import klasifikasi from "../assets/project_img/klasifikasi.svg";
 import ecg from "../assets/project_img/ecg.svg";
+import disperinaker from "../assets/project_img/web-dashboard.svg";
 
 function Project({
   title,
@@ -182,9 +183,21 @@ function Projects() {
       textColor: "orange-800",
       liveDemo: "https://youtu.be/h7-SOYFMDT4?si=iKKXOrMRtUWOvRWt",
       code: "https://github.com/Theoszt/Analisis-sentimen-IKN",
-      date: "Januari, 2021",
+      date: "Januari, 2025",
       type: "Project Kelompok",
     },
+    {  title: "Dashboard Monitoring Data Industri Disperinaker",
+      description: 
+        "Web dashboard interaktif untuk visualisasi data industri, mencakup analisis investasi, skala perusahaan, KBLI, dan data tenaga kerja yang terintegrasi dengan database PostgreSQL.",
+      image: disperinaker,
+      alt: "Dashboard Monitoring Data Industri Disperinaker",
+      techs: ["ReactJS", "FastAPI", "PostgreSQL", "Tailwind CSS", "Data Visualization"],
+      techColor: "blue-100",
+      textColor: "blue-800",
+      liveDemo: "https://youtu.be/3H5Eorv7BG0",
+      code: "https://github.com/Theoszt/web-dashboard",
+      date: "Desember, 2025",
+      type: "Project Magang",}
   ];
 
   return (
